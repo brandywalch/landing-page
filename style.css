@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 h1 {
     font-size: 48px;
     font-weight: bolder;
@@ -125,3 +126,45 @@ li {
     width: 50%;
     font-weight: bolder;
 }
+
+.section-four {
+    display:flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.cta-container {
+    display: flex;
+    background:#3882F6;
+    color: #F9FAF8;
+    width: 75%;
+    justify-content: space-between;
+    padding: 60px 150px;
+    border-radius: 8px;
+}
+
+.cta-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-btn-container {
+    align-self: center;
+}
+
+.section-four button {
+    background:#3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 5px 25px;
+}
+
+footer {
+    background:#1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 50px 0;
+}
+
